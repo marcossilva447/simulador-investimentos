@@ -84,7 +84,7 @@
 }
 
 
-.background-image !important {
+.background-image {
     background-image: url("https://drive.google.com/file/d/1sh3-UaUSKAPgX7XwqcIbMTAcc8i-uQeR/view?usp=sharing");
     width: 100%;
     height: 900px;

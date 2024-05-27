@@ -1,0 +1,65 @@
+.titulo {
+    display: flex;
+    position: absolute;
+    top: 140px;        
+    color: #ffffff;    
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 0%;
+    margin: 0;
+    padding-bottom: 5%;
+       
+}
+
+.titulo h2 {
+    margin: auto, auto;
+}
+.questionario {
+    display: flex;
+    background-color: rgba(31, 31, 31, 0.8);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width: 75%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+}
+
+
+.formularioPerfil {
+        width: 90%;
+        height: 100%;
+        padding-top: 5%;
+        text-size-adjust: 100%;
+        font-size: xx-large;
+        
+}
+
+.broker {
+    display: flex;
+    background-color: rgba(31, 31, 31, 0.8);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width: 75%;
+    height: 82%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    z-index: 9999;
+}
+
+
+
+

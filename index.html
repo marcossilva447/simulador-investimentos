@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../ed_financeira/css/main.css">
+    <link rel="stylesheet" href="../ed_financeira/css/perfil.css">
+   
+</head>
+<body>
+<div class="container">
+    <div class="cabecalho">     
+        <div id="menu">
+            <ul>                
+                <li><a href="../ed_financeira/acoes.html" id="acoes">Ações</a></li>                
+                <li><a href="../ed_financeira/CDB.html" id="cdb">CDB</a></li>
+                <li><a href="https://www.tesourodireto.com.br/simulador/" id="tesouro">Tesouro Direto</a></li>
+                <li><a href="../ed_financeira/fundos.html" id="fundos">Fundos de Investimento</a></li>
+                <li><a href="../ed_financeira/previdencia.html">Previdência Privada</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <div id="btn-logo">
+                <img src="../ed_financeira/images/logo.svg">
+            </div>
+        </div>
+        <div class="sobre">
+            <img src="../ed_financeira/images/sobre.svg">
+        </div>
+    </div>
+    <div class="conteudo">
+    <div class="titulo">
+        <h1>Passo 1 - Descubra seu perfil de investidor:</h1>
+    </div>
+
+    <div class="questionario">
+        <div class="formularioPerfil">
+        <form action="/submit" method="post">
+            <fieldset id="pergunta1">
+                <legend>Qual é o seu objetivo com os investimentos?</legend>
+                <input type="radio" id="patrimonio" name="pergunta1" value="1">
+                <label for="patrimonio">Aumentar patrimônio</label><br>
+                <input type="radio" id="renda" name="pergunta1" value="2">
+                <label for="renda">Gerar renda passiva</label><br>
+                <input type="radio" id="aposentadoria" name="pergunta1" value="3">
+                <label for="aposentadoria">Poupar para a aposentadoria</label><br>
+                <input type="radio" id="sonho" name="pergunta1" value="4">
+                <label for="sonho">Realizar um sonho</label><br>
+                <input type="radio" id="outros" name="pergunta1" value="5">
+                <label for="outros">Outros</label><br>
+            </fieldset>
+            <fieldset id="pergunta2">
+                <legend>Qual é o seu horizonte de tempo para investir?</legend>
+                <input type="radio" id="curto" name="pergunta2" value="1">Curto prazo (menos de 1 ano)<br>
+                <input type="radio" id="medio" name="pergunta2" value="2">Médio prazo (de 1 a 5 anos)<br>
+                <input type="radio" id="longo" name="pergunta2" value="3">Longo prazo (mais de 5 anos)<br>
+              </fieldset>
+            <fieldset id="pergunta3">
+            <legend>Quanto de risco você está disposto a assumir?</legend>
+                <input type="radio" id="conservador" name="pergunta3" value="1">Baixo: Prefiro investimentos mais seguros, mesmo que o retorno seja menor<br>
+                <input type="radio" id="moderado" name="pergunta3" value="2">Médio: Aceito correr riscos moderados em busca de retornos maiores<br>
+                <input type="radio" id="arrojado" name="pergunta3" value="3">Alto: Estou disposto a correr riscos maiores em busca de retornos mais altos<br>
+            </fieldset>
+            <fieldset id="pergunta4">
+                <legend>Qual seria a sua reação se o valor dos seus investimentos caísse 10% em um mês?</legend>
+                <input type="radio" id="vender" name="pergunta4" value="1">Venderia todos os investimentos<br>
+                <input type="radio" id="manter" name="pergunta4" value="2">Manteria os investimentos<br>
+                <input type="radio" id="comprar" name="pergunta4" value="3">Compraria mais investimentos<br>
+            </fieldset>
+            <fieldset id="pergunta5">
+                <legend>Qual é a sua experiência com investimentos?</legend>
+                <input type="radio" id="nenhuma" name="pergunta5" value="1">Nenhuma<br>
+                <input type="radio" id="pouca" name="pergunta5" value="2">Pouca<br>
+                <input type="radio" id="muita" name="pergunta5" value="3">Muita<br>
+            </fieldset>
+          
+            <!-- Repita o bloco fieldset para cada pergunta -->
+          
+            <input type="submit" value="Enviar">
+        </form>
+        </div>
+    </div>
+    
+    <!--<div class="form-background">
+        <img src="../ed_financeira/images/form.svg">
+    </div>-->
+    
+    <div class="background-image"></div>
+    
+</div>
+   
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <p>© Marcos Silva. </p>
+            <ul>
+                <li><a href="#">Termos de uso</a></li>
+                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script src="../ed_financeira/js/home.js"></script>
+
+    
+</body>
+</html>

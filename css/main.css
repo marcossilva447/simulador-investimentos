@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho {
+    display: flex;
+    background-color: #1F1F1F;
+    position: block;
+    top: 0;
+    width: 100%;
+    height: 100px;    
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    left: 15%;
+    width: 0;
+    height: 100px;
+    z-index: 9999;
+    position: absolute; /* added this line */
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.sobre {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    right: 15%;
+    width: 0;
+    height: 100px;
+    z-index: 9999;
+    position: absolute; /* added this line */
+}
+
+.sobre img {
+    width: 100px;
+    height: 100px;
+}
+
+#menu {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;   
+    white-space: nowrap; /* added this line */    
+    font-family: 'Roboto', 'Tahoma';    
+    position: relative;
+    padding-left: 0;
+    width: 100%; 
+    height: 120px;
+    text-align: right;
+    color: #ffffff;    
+    top: 0;
+    left: inherit;
+
+}
+
+#menu li {
+    list-style-type: none;
+    display: inline;
+    padding: 1%;    
+    cursor: pointer;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: medium; /* modified this line */
+    padding: 1%;    
+}
+
+#menu a:hover {
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 2px;
+    font-size: 1.1em; /* added this line */
+}
+
+
+.background-image {
+    background-image: url("../images/background_img.svg");
+    width: 100%;
+    height: 900px;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.footer-content {
+    background-color: #1F1F1F;
+}
+
+.footer-content p, ul {
+    color: #ffffff;
+    text-align: center;
+    padding: 1%;
+}
+
+.footer-content ul {
+    list-style-type: none;
+}
